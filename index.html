@@ -40,17 +40,18 @@
        <p>editado por Mateus</p>
        <p> Boas-vindas ao meu blog! Aqui vou compartilhar sobre tecnologia e computação </p>
         <button>🧡 <span>0</span></button>
-       <main>
+       <div>
         
-        
-        
-        
-        <h2>Meu primeiro post</h2>
-        <p>editado por Mateus</p>
-        <img src="computador.png" alt="icone de computador">
-    </main>
+            </main>
 </body>
+
 <script>
- const botao = document.querySelector("button")
+ const botao = document.querySelector("button");
+botao.addEventListener("click",botaoclicado);
+
+function botaoclicado() {
+    console.log("fui clicado");
+}
 </script>
+
 </html>
